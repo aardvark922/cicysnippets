@@ -7,6 +7,16 @@ SESSION_CONFIGS = [
         num_demo_participants=1,
 
     ),
+    dict(
+        name='Nested_Group',
+        app_sequence=['nested_group'],
+        num_demo_participants=7,
+    ),
+    dict(
+        name='Simultaneous_Two_Group',
+        app_sequence=['simultaneous_two_groups'],
+        num_demo_participants=8,
+    ),
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs

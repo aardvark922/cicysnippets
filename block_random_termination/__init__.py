@@ -47,7 +47,6 @@ class C(BaseConstants):
     # number of supergames to be played
     NUM_SG = len(COUNT_ROUNDS_PER_SG)
     # Get what the round each supergame ends
-    # SG_ENDS = cumsum(COUNT_ROUNDS_PER_SG)
 
     # find how many blocks are needed for each supergame
     BLOCKS_PER_SG = numblock(COUNT_ROUNDS_PER_SG, BLOCK_SIZE)
